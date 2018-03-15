@@ -1,0 +1,12 @@
+<ul id="comments__list">
+  <li class="comment__wrapper" *ngFor="let comment of comments">
+    <div class="comment__photo">
+      <div class="comment__photo__img"></div>
+    </div>
+    <div class="comment__data">
+      <div class="comment__author">{{comment.name}}</div>
+      <div class="comment__text">{{comment.text}}</div>
+    </div>
+    <div class="comment__date">1d</div>
+  </li>
+</ul>

@@ -1,0 +1,7 @@
+<div class="comments__add">
+  <div class="box">
+    <form #form="ngForm" (submit)="add(form.value)">
+      <input class="comments__add__input" type="text" name="text" placeholder="Add a comment" ngModel />
+    </form>
+  </div>
+</div>
